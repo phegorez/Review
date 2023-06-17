@@ -1,0 +1,13 @@
+1. Create local data for store reviews data, In this case use array format to store preview object
+2. Include all usage element
+3. Set Starting item, In this case i have to query array index 0 for set starting preview to show on display
+4. Load intial item, In this case use addEventListener on window and set event on 'DOMContentLoaded' is mean
+   If HTML page is loaded content Is triggered any code in block
+4.1 Set all previews data to html element ex: element.textContent = arrayName.Prop
+
+5. Create function showPerson and move all previews data code from window.addEventListener to showPerson
+5.1 Add parameter to showPerson for receive currentItem data to window.addEventListener
+5.2 In window.addEventListener add function showPoerson and put currentItem in () to pass currentItem value to showPerson function
+
+6. Make next, pervios, random previews button, In case you just coding for change currentItem value + 1 or - 1 to click next & previos
+   button and Last one random preivews you just coding for random in array length to show previews as random
